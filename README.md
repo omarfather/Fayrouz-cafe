@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مقهى فيروز</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to bottom, #fbe9e7, #fff8f0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      animation: fadein 2s ease-in;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #6b4226;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #4d3a29;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      padding: 12px 24px;
+      background-color: #8d6e63;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: #6d4c41;
+    }
+
+    @keyframes fadein {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>أهلاً بكم في مقهى فيروز</h1>
+  <p>هنا تبدأ الحكايات مع أول رشفة قهوة.</p>
+  <a class="button" href="#">عرض المنيو</a>
+</body>
+</html>
